@@ -1,27 +1,9 @@
 # ☯ tao.js
 A tiny, pure JS testing tool with zero dependencies. Write your tests in plain english*, not some obfuscated computer speak. 
 
-<div style="float: left; width: 49%; margin: 1%">
-<center><h3>Turn This:</h3></center>
-  <img width="460" height="300" src="campfire-failing-tests.png">
-</div>
-<div style="float: left; width: 49%; margin: 1%">
-<center><h3>Into This:</h3></center>
-  <img width="460" height="300" src="campfire-passing-tests.png">
-</div>
-<div style="clear:both"></div>
-
-Tao stands out from other testing frameworks in the following ways:
-
-* Tests are written semantically. This is the primary feature of Tao.
-* Zero dependencies
-* Extremely small
-
-However, with great minimalism comes great caveats:
-
-* A DOM is required since tests are ran and reported in a browser
-* It does not include robust scaffolding tools for fixtures; you create all that yourself.
-* It probably doesn't make sense for enterprise projects that have dozens of dependencies
+Turn This           |  Into This
+:-------------------------:|:-------------------------:
+![](campfire-failing-tests.png)  |  ![](campfire-passing-tests.png)
 
 If you advertise your project's small size as one of its core features, consider Tao for testing. 
 
@@ -182,6 +164,20 @@ tao(tests)
 If you spin up a web server (ex: `localhost:8080`) at your project root with the above `tests.js` file, your browser will show the following page when you navigate to `localhost:8080/tests/`:
 
 ![Example Tao.js Output](test-example.png)
+
+## Philosophy
+
+Tao stands out from other testing frameworks in the following ways:
+
+* Tests are written semantically. This is the primary feature of Tao.
+* Zero dependencies
+* Extremely small
+
+However, with great minimalism comes great caveats:
+
+* A DOM is required since tests are ran and reported in a browser
+* It does not include robust scaffolding tools for fixtures; you create all that yourself.
+* It probably doesn't make sense for enterprise projects that have dozens of dependencies
 
 ## Example Projects
 
