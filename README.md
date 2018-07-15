@@ -74,7 +74,7 @@ Here's what you'll do to get up and running with tao.js:
 
 Tao.js tests are all contained in a single object and follow a specific paradigm:
 
-Given **<a condition>** by **<a function>**, well, **<an expectation>** because **<a function>**.
+Given **a condition** by **a function**, well, **an expectation** because **a function**.
 
 Tests are stored in an array, and each test follows a semantic format:
 
