@@ -3,15 +3,11 @@ A tiny, pure JS testing tool with zero dependencies. Write your tests in plain e
 
 <div style="float: left; width: 49%; margin: 1%">
 <center><h3>Turn This:</h3></center>
-<p align="center">
   <img width="460" height="300" src="campfire-failing-tests.png">
-</p>
 </div>
 <div style="float: left; width: 49%; margin: 1%">
 <center><h3>Into This:</h3></center>
-<p align="center">
   <img width="460" height="300" src="campfire-passing-tests.png">
-</p>
 </div>
 <div style="clear:both"></div>
 
